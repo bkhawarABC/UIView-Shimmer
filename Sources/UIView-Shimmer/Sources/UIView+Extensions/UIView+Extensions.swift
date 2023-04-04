@@ -55,7 +55,7 @@ extension UIView {
     ///   - animate: Apply shimmering effect or not. Default value is `true`
     ///   - viewBackgroundColor: Color for shimmering animation to adapt superview.
     ///   If not specified, `superview?.backgroundColor` is used.
-    public func setTemplateWithSubviews(_ template: Bool,
+    @objc public func setTemplateWithSubviews(_ template: Bool,
                                         color: UIColor? = nil,
                                         animate: Bool = true,
                                         viewBackgroundColor: UIColor? = nil,
